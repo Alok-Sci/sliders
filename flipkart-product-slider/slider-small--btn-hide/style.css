@@ -60,18 +60,21 @@
                     height: 100%;
                     overflow: hidden;
                     border-radius: 0.125rem;
-
+                    
                     img
                     {
                         margin-left: auto;
                         margin-right: auto;
-                        height: 90%;
+                        height: 100%;
+                        width: 100%;
+                        padding: .5rem; 
                         object-fit: contain;
+                        object-position: center;
                         transition: all 0.5s ease;
 
                         &:hover
                         {
-                            transform: scale(1.1);
+                            padding: 0;
                         }
                     }
                 }
