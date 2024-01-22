@@ -10,14 +10,14 @@ This repository contains a Flipkart lookalike product slider developed by Alok S
 > Slider example live preview: [click me](https://alok-sci.github.com/sliders/flipkart-product-slider/slider-small--btn-hide/index.html)
 
 
-### Features
+### Features 🌟
 - **Smooth Transitions**: Elevate user interaction with a polished, smooth transition between card slides for a delightful user experience.
 
 - **Reusability with CDN**: Easily integrate the slider into any project by leveraging its reusable nature, facilitated through convenient CDN links.
 
 - **Smart Navigation**: Enjoy a clutter-free interface as the slider intelligently conceals navigation buttons at its edges, ensuring a sleek and intuitive design.
 
-## Usage
+## Usage🚀
 
 ### Include CDN Links in HTML Document
 
@@ -46,20 +46,20 @@ This repository contains a Flipkart lookalike product slider developed by Alok S
     </div>
 </div>
 ```
-## Contribution and Support
+## Contribution and Support 🤝
 
-### Issues and Pull Requests
+### Issues and Pull Requests ❗
 
 Issues and pull requests are welcome! Feel free to contribute to the development of this slider.
 
-### Support the Developer
+### Support the Developer ☕
 
 If you find this project helpful and would like to support the developer, consider buying a coffee:
 
 [![Buy me a coffee](https://iili.io/JoQcIJS.md.png)](https://www.buymeacoffee.com/alokthedev)
 
->Click the images above to redirect to the [Buy Me a Coffee](https://www.buymeacoffee.com/alokthedev) page.
+>Click the images above to redirect to the [Buy Me a Coffee ☕](https://www.buymeacoffee.com/alokthedev) page.
 
-## Copyright and Usage
+## Copyright and Usage &copy;
 
 This project is copyright protected, but it's free to use and contributions are welcomed. © 2024 Alok Singh.
