@@ -56,9 +56,9 @@ Issues and pull requests are welcome! Feel free to contribute to the development
 
 If you find this project helpful and would like to support the developer, consider buying a coffee:
 
-<a href="https://www.buymeacoffee.com/alokthedev" style="width: 100%; display: flex; justify-content: center;"><img src="https://media.giphy.com/media/513lZvPf6khjIQFibF/giphy.gif" width="200" alt="Buy me a coffee"></a>
+[![Buy me a coffee](https://iili.io/JoQcIJS.md.png)](https://www.buymeacoffee.com/alokthedev)
 
-Click the images above to redirect to the Buy Me a Coffee page.
+>Click the images above to redirect to the [Buy Me a Coffee](https://www.buymeacoffee.com/alokthedev) page.
 
 ## Copyright and Usage
 
