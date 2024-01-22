@@ -52,7 +52,7 @@ This repository contains a Flipkart lookalike product slider developed by Alok S
 
 Issues and pull requests are welcome! Feel free to contribute to the development of this slider.
 
-## Support the Developer
+### Support the Developer
 
 If you find this project helpful and would like to support the developer, consider buying a coffee:
 
