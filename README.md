@@ -6,8 +6,8 @@
 
 This repository contains a Flipkart lookalike product slider developed by Alok Singh. The slider provides a user-friendly and customizable way to showcase products in a slider format.
 
-> Visit the code: [click me](https://github.com/Alok-Sci/sliders/tree/master/flipkart-product-slider/slider-small--btn-hide/) \
-> Slider example live preview: [click me](https://alok-sci.github.com/sliders/flipkart-product-slider/slider-small--btn-hide/index.html)
+> Visit the code: [click me](https://github.com/Alok-Sci/sliders/tree/master/flipkart/small/) \
+> Slider example live preview: [click me](https://alok-sci.github.com/sliders/flipkart/small/index.html)
 
 
 ### Features 🌟
@@ -21,10 +21,18 @@ This repository contains a Flipkart lookalike product slider developed by Alok S
 
 ### Include CDN Links in HTML Document
 
+#### Version v1.0
 ```html
 <script defer src="https://cdn.jsdelivr.net/gh/alok-sci/sliders@v1.0/flipkart-product-slider/slider-small--btn-hide/script.js"></script>
 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/alok-sci/sliders@v1.0/flipkart-product-slider/slider-small--btn-hide/style.css">
+```
+
+#### Version v2.0
+```html
+<script defer src="https://cdn.jsdelivr.net/gh/alok-sci/sliders@v2.0/flipkart/small/script.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/alok-sci/sliders@v2.0/flipkart/small/style.css">
 ```
 
 ### HTML Structure
