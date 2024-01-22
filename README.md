@@ -7,7 +7,7 @@
 This repository contains a Flipkart lookalike product slider developed by Alok Singh. The slider provides a user-friendly and customizable way to showcase products in a slider format.
 
 > Visit the code: [click me](https://github.com/Alok-Sci/sliders/tree/master/flipkart/small/) \
-> Slider example live preview: [click me](https://alok-sci.github.com/sliders/flipkart/small/index.html)
+> Slider example live preview: [click me](https://alok-sci.github.io/sliders/flipkart/small/index.html)
 
 
 ### Features 🌟
