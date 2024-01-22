@@ -1,0 +1,165 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face
+{
+    font-family: 'inter_regular';
+    src: url(https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-Regular.woff2) format("woff2");
+}
+
+@font-face
+{
+    font-family: 'inter_semibold';
+    src: url(https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/fonts/Inter-SemiBold.woff2) format("woff2");
+}
+
+.fk-slider
+{
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+    height: 264px;
+
+    >.fk-cards
+    {
+        position: relative;
+        left: 0px;
+        width: max-content;
+        height: 100%;
+        display: flex;
+        background-color: white;
+        transition: all 0.5s ease;
+
+        .fk-card-wrapper
+        {
+            min-width: 216px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+
+            .fk-card
+            {
+                width: 200px;
+                height: inherit;
+                display: grid;
+                grid-template-rows: 1fr auto;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                border-radius: 4px;
+                text-align: center;
+                padding: 6px;
+
+                .fk-img-wrapper
+                {
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    overflow: hidden;
+                    border-radius: 0.125rem;
+                    
+                    img
+                    {
+                        margin-left: auto;
+                        margin-right: auto;
+                        height: 100%;
+                        width: 100%;
+                        padding: .5rem; 
+                        object-fit: contain;
+                        object-position: center;
+                        transition: all 0.5s ease;
+
+                        &:hover
+                        {
+                            padding: 0;
+                        }
+                    }
+                }
+
+                .fk-content-wrapper
+                {
+                    display: grid;
+                    width: 100%;
+                    height: fit-content;
+                    padding-block: 0.5rem;
+                    line-height: 20px;
+                    letter-spacing: -0.01px;
+                    
+                    .fk-title
+                    {
+                        font-size: 14px;
+                        font-family: inter_regular, sans-serif;
+                    }
+
+                    .fk-price
+                    {
+                        font-size: 14px;
+                        font-weight: 700;
+                        font-family: inter_semibold, sans-serif;
+                    }
+                }
+            }
+        }
+    }
+
+    .fk-nav
+    {
+        position: absolute;
+        z-index: 9999;
+        display: grid;
+        place-content: center;
+        padding: 2.5rem .5rem;
+        cursor: pointer;
+        background: white;
+        box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+
+        span
+        {
+            display: grid;
+            place-content: center;
+            margin-inline: 0.5rem;
+
+            img
+            {
+                width: 12px;
+                height: 12px;
+            }
+        }
+
+        &.left
+        {
+            left: 0;
+            top: 50%;
+            border-radius: 0 4px 4px 0;
+            transform: translateY(-50%);
+
+            span
+            {
+                transform: rotate(90deg);
+            }
+        }
+
+        &.right
+        {
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            border-radius: 4px 0 0 4px;
+
+            span
+            {
+                transform: rotate(-90deg);
+            }
+        }
+
+    }
+}
+
+/* utility class  */
+.hidden
+{
+    display: none !important;
+}
